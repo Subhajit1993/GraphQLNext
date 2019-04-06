@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper{
+    display: flex;
+}
+
+.top-bar{
+    height: 65px;
+    box-shadow: 3px 3px 8px 2px #f3f3f3;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-flex{
+    justify-content: center;
+}
+
+.logo-text{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px #e0dfea;
+    color: #616161;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+
+.section-1{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #0d2a55, #00588b, #008aae, #00bcb4, #12eba1);
+}
+
+.common-padding{
+    padding: 0 110px;
+}
+
+.flex-item{
+    flex-grow:0
+}
+.main-text{
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.secondary-text{
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.img-container{
+
+}
+.img-container .img-hover-container {
+    opacity: 0;
+    left: 27px;
+    transition: opacity .8s;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 1px 1px 12px 0px #8c8c8c26;
+}
+.img-container:hover .img-hover-container {
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.img-container:hover {
+    box-shadow: 0 0 12px 5px #6b6b6b0d !important;
+}
